@@ -123,9 +123,40 @@ nav a{
 .atag2{
     color: #5E8A93;
 }
-.mainContent{
-    width: 600px;
+.content{
+    display: grid;
+    margin:0 auto;
 }
+.content{
+    grid-area: 1/1/4/2;
+
+}
+.sideBar{
+    grid-area:1/2/4/3;
+
+}
+.box {
+    display: flex;
+    margin-right: 50px;
+    padding-right: 75px;
+    padding-left: 45px;
+    margin-bottom: 40px;
+}
+.box img{
+    width: 170px; 
+}
+.sidebar img{
+    width: 200px;
+}
+.box .text{
+    width: 400px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.text p{
+    font-size: 15px;
+}
+
 
 
 
