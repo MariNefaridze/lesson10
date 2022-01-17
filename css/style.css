@@ -1,4 +1,126 @@
-.banner{
-    width: 1360px;
-    height: 270px;
+.center{
+    max-width: 1920px;
+    margin: 0 auto;
 }
+header{
+    position: relative;
+    width: 1365px;
+}
+h1{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F0F0F0;
+    width: 1000px;
+    height: 77px;
+    font-size: 60px;
+    text-align: center;
+}
+.banner{
+    width: 1365px;
+    height: 270px;
+    filter: blur(3px);
+    margin: 0 auto; 
+} 
+.navs{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 103px;
+    margin-top: 40px;
+    font-weight: bold;
+} 
+.nav-ul-left{
+    display: flex;
+    margin-left: 150px;
+}
+.nav-li-left{
+    margin-left: 75px;
+}
+.nav-ul-right{
+    display: flex;
+    margin-right: 150px;
+}
+.nav-li-right{
+    margin-right: 55px;
+}
+nav a{
+    color:#404040;
+}
+.cover{
+    width: 1000px;
+    height: 270px;
+    margin-left: 150px;
+    margin-right: 150px;
+    filter: blur(2px);
+}
+.topic{
+    position: relative;
+}
+.imageTexts{
+    position: absolute;
+    top: 0;
+    left:40%;
+    bottom: 60%;
+    transform: translate(-40%,50%);
+    color: #F0F0F0;
+    margin-bottom: 30px;
+}
+.topic h6{
+    font-size: 15px;
+    opacity: 72%;
+    margin-bottom: 10px;
+}
+.topic h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.topic p{
+    font-size: 15px;
+    font-weight: bold;
+    height: 57px; 
+    margin-bottom: 25px;
+}
+.topic .readMore{
+    color:#F0F0F0;
+    background:linear-gradient(#6294A2,#58C3DD);
+    width: 186px;
+    height: 44px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;   
+}
+.topic-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.topic-li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.topic-li:nth-child(1){
+    font-size: 12px;
+    color: #F0F0F0;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.topic-li:nth-child(2){
+    font-size: 12px;
+    line-height: 16px;
+    color: #5E8A93;
+    background-color: #FCFCFC;
+    padding:5px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.atag1{
+    color: #FCFCFC;
+}
+.atag2{
+    color: #5E8A93;
+}
+
