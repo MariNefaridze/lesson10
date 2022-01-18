@@ -125,33 +125,36 @@ nav a{
 }
 .content{
     display: grid;
+    margin-left: 100px;
+    margin-right: 180px;
 }
 .content{
     grid-area: 1/1/4/2;
-    border: 1px solid black;
 
 }
 .sideBar{
     grid-area:1/2/4/3;
-    border: 1px solid black;
 }
 .box {
     display: flex;
-    margin-right: 30px;
-    padding-right: 75px;
-    padding-left: 45px;
-    margin-bottom: 40px;
+    padding-left: 30px;
 }
 .box img{
     width: 170px; 
+    padding-top: 60px;
+    
 }
 .sideBar img{
     width: 400px;
+    filter: blur(2px);
 }
 .box .text{
     width: 400px;
-    padding-top: 10px;
-    margin-left: 30px;
+    padding-right: 80px;
+    margin-left: 15px;
+    padding-top: 60px;
+    margin-top: 15px;
+
 }
 .text p{
     font-size: 15px;
@@ -173,9 +176,9 @@ nav a{
     top: 100%;
     transform: translate(-2%,100%);
     width: 300px;
-    padding-left: 30px;
+    margin-left: -70px;
     margin-top: -30px;
-    
+    padding-right: 50px;
 }
 .side-text1 h3{
     font-size: 15px;
@@ -213,8 +216,77 @@ nav a{
     display: flex;
     padding: 10px;
     align-items: center;
+    
 
 }
+.side-bar2{
+    width: 370px;
+    height: 260px;
+    background-color: #FCFCFC;
+    border: 1px solid #A6A6A6;
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px;
+    padding: 40px;
+    margin-left: 20px;
+}
+.side-bar2 h3{
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.side-bar2 h4{
+    color: #404040;
+    opacity: 57%;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    width: 300px;
+}
+.input{
+    width: 300px;
+    height: 38px;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #404040;
+    font-weight: bold;
+    opacity: 51%;
+    margin-bottom: 30px;
+}
+.side-bar2 a{
+    color:#F0F0F0;
+    background:linear-gradient(#6294A2,#58C3DD);
+    width: 186px;
+    height: 44px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;   
+
+}
+.text h3{
+    color: #404040;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 19px;
+    opacity: 24%;
+}
+.text h2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    width: 450px;
+}
+.text p{
+    font-size: 15px;
+    width: 370px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #404040;
+}
+
+
 
 
 
