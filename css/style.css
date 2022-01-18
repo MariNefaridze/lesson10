@@ -321,7 +321,7 @@ nav a{
     line-height: 21px;
 }
 .image6{
-    width: 500px;
+    width: 450px;
     margin-top: 60px;
 }
 .secondContent{
@@ -330,8 +330,8 @@ nav a{
 }
 .blurText{
     position: absolute;
-    bottom: 30%;
-    left: 55%;
+    bottom: 40%;
+    left: 54%;
 }
 .blurText h3{
     font-size: 15px;
@@ -350,6 +350,51 @@ nav a{
     font-weight: bold;
     font-size: 15px;
     line-height: 21px;
+    width: 400px;
 
+}
+.content3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 360px;
+    grid-gap: 30px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.container3{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 7px;
+
+}
+.container3 img{
+    width: 300px;
+}
+.grid-text{
+    width: 290px;
+    margin-left: 15px;
+    padding-right: 20px;
+    color: #404040;
+}
+.grid-text h3{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.grid-text p{
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.container3 h2{
+    font-size: 26px;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-weight: bold;
 }
 
