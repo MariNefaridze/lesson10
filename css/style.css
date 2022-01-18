@@ -320,7 +320,36 @@ nav a{
     font-size: 15px;
     line-height: 21px;
 }
+.image6{
+    width: 500px;
+    margin-top: 60px;
+}
+.secondContent{
+    display: flex;
+    position: relative;
+}
+.blurText{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+}
+.blurText h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #F0F0F0;
+    opacity: 35%;
+    line-height: 21px;
+}
+.blurText h2{
+    font-size: 32px;
+    color: #F0F0F0;
+    line-height: 44px;
+}
+.blurText h4{
+    color: #F0F0F0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
 
-
-
+}
 
