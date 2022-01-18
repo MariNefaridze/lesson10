@@ -125,19 +125,19 @@ nav a{
 }
 .content{
     display: grid;
-    margin:0 auto;
 }
 .content{
     grid-area: 1/1/4/2;
+    border: 1px solid black;
 
 }
 .sideBar{
     grid-area:1/2/4/3;
-
+    border: 1px solid black;
 }
 .box {
     display: flex;
-    margin-right: 50px;
+    margin-right: 30px;
     padding-right: 75px;
     padding-left: 45px;
     margin-bottom: 40px;
@@ -145,8 +145,8 @@ nav a{
 .box img{
     width: 170px; 
 }
-.sidebar img{
-    width: 200px;
+.sideBar img{
+    width: 400px;
 }
 .box .text{
     width: 400px;
@@ -156,7 +156,65 @@ nav a{
 .text p{
     font-size: 15px;
 }
+.sideBar p{
+    font-size: 15px;
+    width: 200px;
+    height: 500px;
+}
+.body{
+    width: 1365px;
+}
+.side-bar-photo{
+    position: relative;
+}
+.side-text1{
+    position: absolute;
+    left: 65%;
+    top: 100%;
+    transform: translate(-2%,100%);
+    width: 300px;
+    padding-left: 30px;
+    margin-top: -30px;
+    
+}
+.side-text1 h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #F0F0F0;
+    opacity: 35%;
+    line-height: 21px;
+}
+.side-text1 h2{
+    font-size: 32px;
+    color: #F0F0F0;
+    line-height: 44px;
+}
+.side-text1 h4{
+    color: #F0F0F0;
+    opacity: 57%;
+    font-size: 15px;
+    line-height: 21px;
+}
+.side-text1 a{
+    font-size: 16px;
+    line-height: 22px;
+    color: #F0F0F0;
+    font-weight: bold; 
+    margin-left: 30px;   
+    
+}
+.button{
+    background-color: #010002;
+    width: 150px;
+    border-radius: 50px;
+    opacity: 41%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
 
+}
 
 
 
