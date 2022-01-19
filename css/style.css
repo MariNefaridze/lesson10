@@ -298,6 +298,16 @@ nav a{
     margin-bottom: 30px;
     margin-left: 30px;
 }
+.title::before{
+    content: '';
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background:linear-gradient(#6294A2,#58C3DD);
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
 .content1 h5{
     color: #404040;
     opacity: 24%;
