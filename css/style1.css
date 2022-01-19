@@ -122,3 +122,42 @@ nav a{
     transform: translate(-50%, -50%);
     
 }
+.articles{
+    width: 980px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.article2 img{
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.text-style{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+    font-weight: bold;
+}
+.title-style{
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #404040;
+}
+.article4 p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+    font-weight: bold;
+    width: 600px;
+    margin-top:10px;
+    padding-bottom:40px;
+}
