@@ -117,3 +117,73 @@ nav a{
     margin-right: 10px;
     margin-top: 5px;
 }
+.list-div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 60px;
+    width: 980px;
+    margin:50px 20px 50px 15px;
+}
+.list-ul{
+    display: flex;
+    padding: 15px 0px 20px 30px;
+}
+.list-li{
+    margin-right: 40px;
+}
+.list-li a{
+    font-size: 18px;
+    line-height: 26px;
+    color: #404040;
+    opacity: 41%;
+    font-weight: bold;
+}
+.list-li-active{
+    font-size: 18px;
+    line-height: 26px;
+    color: #404040;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 15px;
+    margin-right: 55px;
+    
+}
+.grids img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.grid{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.grid-text{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.grid-text h2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 20px;
+}
+.grid-text p{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 10px;
+}
+.grid-text h6{
+    font-size: 13px;
+    font-weight: bold;
+    color: #404040;
+    opacity: 24%;
+}
