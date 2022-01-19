@@ -17,6 +17,20 @@ h1{
     font-size: 60px;
     text-align: center;
 }
+h1::after{
+    content: '';
+    display: inline-block;
+    background:linear-gradient(#183C77,#58C3DD);
+    width: 1280px;
+    height: 240px;
+    border-radius: 7px;
+    opacity: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
 .banner{
     width: 1300px;
     height: 270px;
@@ -48,10 +62,63 @@ h1{
 nav a{
     color:#404040;
 }
+.title::before{
+    content: '';
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background:linear-gradient(#183C77,#58C3DD);
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
 .cover{
     width: 1000px;
     height: 270px;
     margin-left: 150px;
     margin-right: 150px;
     filter: blur(2px);
+    position: relative;
+}
+.imageTexts{
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    left: 48%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.imageTexts h6{
+    font-size: 20px;
+    line-height: 28px;
+    color: #F0F0F0;
+    opacity: 72%;
+    margin-bottom: 15px;
+    
+}
+.imageTexts h2{
+    font-size: 46px;
+    line-height: 64px;
+    color: #F0F0F0;
+}
+.imageTexts span{
+    font-size: 10px;
+    color: #F0F0F0;
+}
+.imageTexts::after{
+    content: '';
+    display: inline-block;
+    background:linear-gradient(#6294A2,#58C3DD);
+    width: 980px;
+    height: 242px;
+    border-radius: 7px;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    top: 67%;
+    transform: translate(-50%, -50%);
+    
 }
