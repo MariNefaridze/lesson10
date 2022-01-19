@@ -83,11 +83,10 @@ nav a{
 .imageTexts{
     position: absolute;
     text-align: center;
-    bottom: 0%;
-    left: 48%;
-    top: 85%;
-    transform: translate(-50%, -50%);
-    
+    margin-top: -225px;
+    width: 900px;
+    margin-left: 200px;
+    margin-right: 145px;
     
 }
 .imageTexts h6{
