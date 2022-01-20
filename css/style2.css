@@ -206,4 +206,62 @@ nav a{
     padding-top: 5px;
 
 }
+.cover-photo{
+    width: 1000px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 260px;
+}
+.cover-photo{
+    position: relative;
+    filter: blur(2px);
+}
+.position-text{
+    position: absolute;
+    width: 900px;
+    margin-left: 180px;
+    margin-right: 145px;
+    margin-top: -220px;
+}
+.position-text h2{
+    font-size: 32px;
+    line-height: 44px;
+    color: #F0F0F0;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.position-text p{
+    color: #F0F0F0;
+    opacity: 75%;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    width: 700px;
+}
+.position-text span a{
+    margin-right: 20px; 
+    color: #F0F0F0; 
+}
+.button1{
+    color:#F0F0F0;
+    background:linear-gradient(#3B79E0,#58C3DD);
+    width: 150px;
+    height: 30px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.button2{
+    background-color: #010002;
+    width: 150px;
+    border-radius: 50px;
+    opacity: 41%;
+    height: 30px;
+    padding: 10px 30px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+}
 
