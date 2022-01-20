@@ -1,10 +1,8 @@
-.center{
-    max-width: 1920px;
-    margin: 0 auto;
-}
 header{
     position: relative;
-    width: 1365px;
+    width: 1300px;
+    margin-left: 25px;
+    
 }
 h1{
     position: absolute;
@@ -48,6 +46,16 @@ h1{
 nav a{
     color:#404040;
 }
+.title::before{
+    content: '';
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background:linear-gradient(#183C77,#58C3DD);
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
 .cover{
     width: 1000px;
     height: 270px;
@@ -60,10 +68,9 @@ nav a{
 }
 .imageTexts{
     position: absolute;
-    top: 0;
-    left:40%;
-    bottom: 60%;
-    transform: translate(-40%,50%);
+    top: 40px;
+    left:200px;
+    bottom: 150px;
     color: #F0F0F0;
     margin-bottom: 30px;
 }
@@ -82,6 +89,7 @@ nav a{
     font-weight: bold;
     height: 57px; 
     margin-bottom: 25px;
+    width: 900px;
 }
 .topic .readMore{
     color:#F0F0F0;
@@ -95,8 +103,8 @@ nav a{
 }
 .topic-nav{
     position: absolute;
-    top: 0;
-    right: 0;
+    left: 600px;
+    bottom: 20px;
 }
 .topic-li{
     display: inline-block;
@@ -127,6 +135,13 @@ nav a{
     display: flex;
     padding-top:45px
 }
+.flex-title h2{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #404040
+}
 .point{
     margin-left: 100px;
 }
@@ -137,61 +152,50 @@ nav a{
     font-weight: bold;
 }
 .content{
-    display: grid;
-    margin-left: 100px;
-    margin-right: 180px;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 500px;
 }
-.content{
-    grid-area: 1/1/4/2;
-
-}
-.sideBar{
-    grid-area:1/2/4/3;
-    margin-top: 50px;
-    
+.left-flex{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .box {
     display: flex;
-    padding-left: 30px;
+    padding-left: 20px;
+    width: 625px;
     
 }
 .box img{
     width: 200px; 
-    padding-top: 60px;
+    margin-top: 30px;
     
 }
-.sideBar img{
-    width: 400px;
-    filter: blur(2px);
-}
 .box .text{
-    width: 400px;
-    padding-right: 80px;
-    margin-left: 15px;
-    padding-top: 60px;
-    margin-top: 25px;
+    padding-top: 50px;
 
+}
+.text2 h2{
+    padding-right: 28px;
 }
 .text p{
     font-size: 15px;
 }
-.sideBar p{
-    font-size: 15px;
-    width: 200px;
-    height: 500px;
+.sideBar img{
+    width: 360px;
+    filter: blur(2px);
 }
 .side-bar-photo{
     position: relative;
 }
 .side-text1{
     position: absolute;
-    left: 65%;
-    top: 100%;
-    transform: translate(-2%,100%);
+    top: 780px;
+    bottom: -320px;
+    right: 220px;
+    left: 820px;
     width: 300px;
-    margin-left: -70px;
-    margin-top: 10px;
-    padding-right: 50px;
 }
 .side-text1 h3{
     font-size: 15px;
@@ -216,7 +220,7 @@ nav a{
     line-height: 22px;
     color: #F0F0F0;
     font-weight: bold; 
-    margin-left: 30px;   
+    margin-left: 30px;  
     
 }
 .button{
@@ -227,23 +231,27 @@ nav a{
     height: 30px;
     margin-top: 20px;
     display: flex;
-    padding: 10px;
+    padding-left: 20px;
     align-items: center;    
 
 }
 .side-bar2{
-    width: 370px;
-    height: 260px;
+    width: 330px;
+    height: 300px;
     background-color: #FCFCFC;
     border-radius: 7px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 40px;
     margin-left: 20px;
+    margin-top: 90px;
+    padding: 10px;
+
 }
 .side-bar2 h3{
     font-size: 26px;
     line-height: 36px;
     font-weight: bold;
+    padding-top: 30px;
+
 }
 .side-bar2 h4{
     color: #404040;
@@ -252,9 +260,10 @@ nav a{
     font-size: 15px;
     line-height: 21px;
     width: 300px;
+    padding-left: 30px;
 }
 .input{
-    width: 300px;
+    width: 250px;
     height: 38px;
     border: 1px solid #EFEFEF;
     border-radius: 4px;
@@ -264,6 +273,8 @@ nav a{
     font-weight: bold;
     opacity: 51%;
     margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 .side-bar2 a{
     color:#F0F0F0;
@@ -273,8 +284,8 @@ nav a{
     padding: 10px 30px;
     border-radius: 50px;
     font-weight: bold;
-    font-size: 17px;   
-
+    font-size: 17px;  
+    margin-left: 30px; 
 }
 .text h3{
     color: #404040;
@@ -307,11 +318,12 @@ nav a{
     margin: 60px 150px;
     border-radius: 7px;
 }
-.title{
+.content1 h2{
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 30px;
     margin-left: 30px;
+    color: #404040
 }
 .title::before{
     content: '';
@@ -352,14 +364,16 @@ nav a{
 }
 .blurText{
     position: absolute;
-    bottom: 40%;
-    left: 54%;
+    top: 280px;
+    left: 730px;
+    padding-right: 20px;
+
 }
 .blurText h3{
     font-size: 15px;
     font-weight: bold;
     color: #F0F0F0;
-    opacity: 35%;
+    opacity: 41%;
     line-height: 21px;
 }
 .blurText h2{

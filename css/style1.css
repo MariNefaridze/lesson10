@@ -17,20 +17,7 @@ h1{
     font-size: 60px;
     text-align: center;
 }
-h1::after{
-    content: '';
-    display: inline-block;
-    background:linear-gradient(#183C77,#58C3DD);
-    width: 1280px;
-    height: 240px;
-    border-radius: 7px;
-    opacity: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
+
 .banner{
     width: 1300px;
     height: 270px;
@@ -105,21 +92,6 @@ nav a{
 .imageTexts span{
     font-size: 10px;
     color: #F0F0F0;
-}
-.imageTexts::after{
-    content: '';
-    display: inline-block;
-    background:linear-gradient(#6294A2,#58C3DD);
-    width: 980px;
-    height: 242px;
-    border-radius: 7px;
-    opacity: 50%;
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    top: 67%;
-    transform: translate(-50%, -50%);
-    
 }
 .articles{
     width: 980px;
