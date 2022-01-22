@@ -10,7 +10,9 @@ h1{
     position: absolute;
     bottom: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     color: #F0F0F0;
     width: 1000px;
     height: 77px;
@@ -21,18 +23,25 @@ h1{
 .banner{
     width: 1300px;
     height: 270px;
-    filter: blur(3px);
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
     margin: 0 auto; 
 } 
 .navs{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 1300px;
     height: 103px;
     margin-top: 40px;
     font-weight: bold;
 } 
 .nav-ul-left{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 150px;
 }
@@ -40,6 +49,8 @@ h1{
     margin-left: 75px;
 }
 .nav-ul-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-right: 150px;
 }
@@ -54,6 +65,8 @@ nav a{
     display:inline-block;
     width: 10px;
     height: 10px;
+    background:-webkit-gradient(linear,left top, left bottom,from(#183C77),to(#58C3DD));
+    background:-o-linear-gradient(#183C77,#58C3DD);
     background:linear-gradient(#183C77,#58C3DD);
     border-radius: 50px;
     margin-right: 10px;
@@ -64,7 +77,8 @@ nav a{
     height: 270px;
     margin-left: 150px;
     margin-right: 150px;
-    filter: blur(2px);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
     position: relative;
 }
 .imageTexts{
@@ -101,7 +115,8 @@ nav a{
     padding-left: 100px;
     padding-right: 100px;
     text-align: left;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .article2 img{
     width: 800px;
@@ -133,8 +148,11 @@ nav a{
     padding-bottom:40px;
 }
 .personal-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 980px;
     margin-left: 150px;
     margin-right: 150px;
@@ -150,6 +168,8 @@ nav a{
     font-weight: bold;
 }
 .ul-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .li-icons {
@@ -201,7 +221,8 @@ nav a{
 }
 .cover-photo{
     position: relative;
-    filter: blur(2px);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
 }
 .position-text{
     position: absolute;
@@ -232,6 +253,8 @@ nav a{
 }
 .button1{
     color:#F0F0F0;
+    background:-webkit-gradient(linear,left top, left bottom,from(#3B79E0),to(#58C3DD));
+    background:-o-linear-gradient(#3B79E0,#58C3DD);
     background:linear-gradient(#3B79E0,#58C3DD);
     width: 150px;
     height: 30px;
@@ -247,12 +270,16 @@ nav a{
     opacity: 41%;
     height: 30px;
     padding: 10px 30px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-weight: bold;
     font-size: 17px;
 }
 .content3{
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     width: 360px;
     grid-gap: 30px;
@@ -260,7 +287,8 @@ nav a{
     padding-left: 20px;
 }
 .container3{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 1000px;
     height: 500px;
     margin-left: 150px;
@@ -299,7 +327,9 @@ nav a{
 .footer{
     background-color: #FCFCFC;
     height: 235px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 150px;
     margin-right: 150px;
@@ -308,9 +338,12 @@ nav a{
     
 }
 .footerInfo{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .flex-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 40px;
 }
@@ -347,6 +380,8 @@ nav a{
 
 }
 .ul-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .li-icon {

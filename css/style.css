@@ -2,13 +2,14 @@ header{
     position: relative;
     width: 1300px;
     margin-left: 25px;
-    
 }
 h1{
     position: absolute;
     bottom: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     color: #F0F0F0;
     width: 1000px;
     height: 77px;
@@ -18,18 +19,25 @@ h1{
 .banner{
     width: 1300px;
     height: 270px;
-    filter: blur(3px);
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
     margin: 0 auto; 
-} 
+}  
 .navs{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 1300px;
     height: 103px;
     margin-top: 40px;
     font-weight: bold;
 } 
 .nav-ul-left{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 150px;
 }
@@ -37,6 +45,8 @@ h1{
     margin-left: 75px;
 }
 .nav-ul-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-right: 150px;
 }
@@ -51,6 +61,8 @@ nav a{
     display:inline-block;
     width: 10px;
     height: 10px;
+    background:-webkit-gradient(linear,left top, left bottom,from(#183C77),to(#58C3DD));
+    background:-o-linear-gradient(#183C77,#58C3DD);
     background:linear-gradient(#183C77,#58C3DD);
     border-radius: 50px;
     margin-right: 10px;
@@ -61,7 +73,8 @@ nav a{
     height: 270px;
     margin-left: 150px;
     margin-right: 150px;
-    filter: blur(2px);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
 }
 .topic{
     position: relative;
@@ -93,6 +106,8 @@ nav a{
 }
 .topic .readMore{
     color:#F0F0F0;
+    background:-webkit-gradient(linear,left top, left bottom,from(#6294A2),to(#58C3DD));
+    background:-o-linear-gradient(#6294A2,#58C3DD);
     background:linear-gradient(#6294A2,#58C3DD);
     width: 186px;
     height: 44px;
@@ -132,6 +147,8 @@ nav a{
     color: #5E8A93;
 }
 .flex-title{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top:45px
 }
@@ -152,6 +169,8 @@ nav a{
     font-weight: bold;
 }
 .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 60px;
     margin-left: 150px;
@@ -159,9 +178,12 @@ nav a{
     width: 500px;
 }
 .left-flex{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 20px;
     width: 625px;
@@ -184,7 +206,8 @@ nav a{
 }
 .sideBar img{
     width: 360px;
-    filter: blur(2px);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
 }
 .side-bar-photo{
     position: relative;
@@ -230,9 +253,13 @@ nav a{
     opacity: 41%;
     height: 30px;
     margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 20px;
-    align-items: center;    
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;    
 
 }
 .side-bar2{
@@ -240,7 +267,8 @@ nav a{
     height: 300px;
     background-color: #FCFCFC;
     border-radius: 7px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-left: 20px;
     margin-top: 90px;
     padding: 10px;
@@ -278,6 +306,8 @@ nav a{
 }
 .side-bar2 a{
     color:#F0F0F0;
+    background:-webkit-gradient(linear,left top, left bottom,from(#6294A2),to(#58C3DD));
+    background:-o-linear-gradient(#6294A2,#58C3DD);
     background:linear-gradient(#6294A2,#58C3DD);
     width: 186px;
     height: 44px;
@@ -312,7 +342,8 @@ nav a{
     margin-bottom: 30px;
 }
 .content1{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 400px;
     padding: 40px 40px 20px 40px;
     margin: 60px 150px;
@@ -330,6 +361,8 @@ nav a{
     display:inline-block;
     width: 10px;
     height: 10px;
+    background:-webkit-gradient(linear,left top, left bottom,from(#6294A2),to(#58C3DD));
+    background:-o-linear-gradient(#6294A2,#58C3DD);
     background:linear-gradient(#6294A2,#58C3DD);
     border-radius: 50px;
     margin-right: 10px;
@@ -359,6 +392,8 @@ nav a{
     margin-top: 60px;
 }
 .secondContent{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
 }
@@ -390,7 +425,9 @@ nav a{
 
 }
 .content3{
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     width: 360px;
     grid-gap: 30px;
@@ -398,7 +435,8 @@ nav a{
     padding-left: 20px;
 }
 .container3{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 1000px;
     height: 500px;
     margin-left: 150px;
@@ -436,7 +474,9 @@ nav a{
 .footer{
     background-color: #FCFCFC;
     height: 235px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 150px;
     margin-right: 150px;
@@ -445,9 +485,12 @@ nav a{
     
 }
 .footerInfo{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .flex-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 40px;
 }
@@ -484,6 +527,8 @@ nav a{
 
 }
 .ul-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .li-icon {
